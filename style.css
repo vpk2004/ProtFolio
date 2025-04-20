@@ -421,11 +421,15 @@ span{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    padding: 20px 0;
     background: #262b40;
+    width: 100%;
 }
+
 .footer-text {
-    font-size: 17px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .footer-icontop{
@@ -520,16 +524,15 @@ span{
 }
 
 
-@media screen and (max-width: 768px) {
-    .footer {
-        text-align: center; /* Center all text inside footer */
-        padding: 2rem 5%;
+/* Media Query for mobile footer */
+@media (max-width: 768px) {
+    .footer-text {
+        font-size: 14px;
+        padding: 15px 10px;
     }
 
-    .footer p {
-        margin: 0 auto;        /* Center horizontally */
-        font-size: 14px;
-        display: block;
-        width: 100%;           /* Optional: ensures full width */
+    .footer-text p {
+        line-height: 1.4;
+        word-wrap: break-word;
     }
 }
