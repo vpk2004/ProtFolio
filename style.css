@@ -349,18 +349,22 @@ span{
     background: #59B2F4;
 }
 
-.portfolio .re{
+.portfolio .re {
     display: inline-block;
     padding: 1rem 2.8rem;
     background: #59B2F4;
     border-radius: 4rem;
     box-shadow: 0 0 1rem #59B2F4;
-    font-size: 15px;
+    font-size: 13px;
     color: #191f36;
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    margin-bottom: 60px;
+    margin-left: 450px;
+    margin-right: auto;
 }
+
 
 .portfolio .re:hover{
     box-shadow: none;
@@ -414,7 +418,7 @@ span{
 }
 
 /* Contact End*/
-
+re
 /* Footer Start */
 .footer{
     display: flex;
@@ -430,7 +434,7 @@ span{
     text-align: center;
     font-size: 16px;
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .footer-icontop {
@@ -550,4 +554,14 @@ span{
         padding: 0.5rem;
     }
 }
+
+@media (max-width: 768px) {
+    .portfolio .re {
+      display: block;
+      margin: 30px auto 60px auto;
+      font-size: 14px;
+      padding: 0.8rem 2rem;
+    }
+  }
+  
 
